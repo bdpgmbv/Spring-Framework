@@ -12,4 +12,8 @@
 * used to tackle the cross cutting concerns
 * When we are building an application - there are a lot of things that we might do repeatedly like logging the user data - the logs that we generate, doing logging in, doing securities.
 * these type of things that we have to do for each and every request that is coming from the server.
-* to do those things every time - its a tedious job, So what we do is - we seperate out all those cross cutting concerns - we seperate out using AOP.  
+* to do those things every time - its a tedious job, So what we do is - we seperate out all those cross cutting concerns - we seperate out using AOP.
+
+4. From tight coupling of dependencies to loose coupling with spring
+* we dont have to use new keyword or do anything for the classes that you need for your class to work.
+* we just have to annotate it or we can do the XML configuration as well. 
