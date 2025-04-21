@@ -15,5 +15,14 @@
 * to do those things every time - its a tedious job, So what we do is - we seperate out all those cross cutting concerns - we seperate out using AOP.
 
 4. From tight coupling of dependencies to loose coupling with spring
-* we dont have to use new keyword or do anything for the classes that you need for your class to work.
-* we just have to annotate it or we can do the XML configuration as well. 
+* we dont have to use new keyword or do anything to bring your dependency classes.
+* we just have to annotate it or we can do the XML configuration as well - like this particular class might need this or we need this particular object.
+
+5. WAYS that we can do dependency injection
+* Contructor based
+* Setter based
+
+6. we can do dependency injection via
+* XML configurations
+* Annotations based Configurations
+* Java configurations
